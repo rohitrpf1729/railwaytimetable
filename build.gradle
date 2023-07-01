@@ -13,17 +13,6 @@ plugins {
   id "com.github.node-gradle.node" version "5.0.0"
 }*/
 
-buildscript {
-  repositories {
-    gradlePluginPortal()
-  }
-
-  dependencies {
-    classpath "com.github.node-gradle:gradle-node-plugin:5.0.0"
-  }
-}
-
-apply plugin: 'com.github.node-gradle.node'
 
 //declare a build task
 task build
